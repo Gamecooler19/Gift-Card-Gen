@@ -30,16 +30,31 @@ if(mode == "Minecraft"):
         generate2 = random.choice(gentype)
         generate3 = random.choice(gentype)
         generate4 = random.choice(gentype)
-        space1 = "-"
         generate5 = random.choice(gentype)
+        space1 = "-"
         generate6 = random.choice(gentype)
         generate7 = random.choice(gentype)
         generate8 = random.choice(gentype)
-        space2 = "-"
         generate9 = random.choice(gentype)
         generate10 = random.choice(gentype)
+        space2 = "-"
         generate11 = random.choice(gentype)
         generate12 = random.choice(gentype)
+        generate13 = random.choice(gentype)
+        generate14 = random.choice(gentype)
+        generate15 = random.choice(gentype)
+        space3 = "-"
+        generate16 = random.choice(gentype)
+        generate17 = random.choice(gentype)
+        generate18 = random.choice(gentype)
+        generate19 = random.choice(gentype)
+        generate20 = random.choice(gentype)
+        space4 = "-"
+        generate21 = random.choice(gentype)
+        generate22 = random.choice(gentype)
+        generate23 = random.choice(gentype)
+        generate24 = random.choice(gentype)
+        generate25 = random.choice(gentype)
         newline = "\n"
         with open(file, 'a') as out:
           out.write(generate1+generate2+generate3+generate4+space1+generate5+generate6+generate7+generate8+space2+generate9+generate10+generate11+generate12+newline)
