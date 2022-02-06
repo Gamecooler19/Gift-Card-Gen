@@ -57,7 +57,7 @@ if(mode == "Minecraft"):
         generate25 = random.choice(gentype)
         newline = "\n"
         with open(file, 'a') as out:
-          out.write(generate1+generate2+generate3+generate4+space1+generate5+generate6+generate7+generate8+space2+generate9+generate10+space3+generate11+generate12+generate13+generate14+generate15+space4+generate16+generate17+generate18+generate19+generate20+space5+generate21+generate22+generate23+generate24+generate25+newline)
+          out.write(generate1+generate2+generate3+generate4+space1+generate5+generate6+generate7+generate8+space2+generate9+generate10+space3+generate11+generate12+generate13+generate14+generate15+space4+generate16+generate17+generate18+generate19+generate20+space4+generate21+generate22+generate23+generate24+generate25+newline)
 #Amazon
 if(mode == "Amazon"):
     for x in range(number):
